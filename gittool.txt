@@ -1,0 +1,45 @@
+1.创建本地仓库：git init
+
+2.设置个人信息 :
+git config --global user.name “hany”
+git config --global user.email “han.y@ziytek.com”
+
+3.新建文件
+  在本地库下新建文件
+  将文件添加到仓库Git add test.txt 
+  提价文件git commit -m “这是一个测试文件/新增三个测试文件”
+
+4.查看当前仓库状态git status
+
+5.查看制定文件修改内容git diff test.txt
+
+6.查看修改记录 git log
+
+7.恢复前一个版本 git reset –hard HEAD~1
+
+8.返回之前某一版本号 git reset –hard 3628164
+
+9.查看每次命令 git reflog（可以找到版本号）
+
+10.撤销工作区的修改git checkout --test.txt
+
+11.撤销暂存区的修改 pugit
+  Git reset HEAD test.txt
+  Git checkout –test.txt
+
+ 
+
+12.添加远程库
+  Github上新建空的仓库new
+  Git remote add origin git@github.com:woniuzuioupao/new.git
+
+13.推送到远程仓库
+  第一次：Git push -u origin master
+  以后：git push origin mastergit
+
+14.克隆远程库
+  创建远程库newpro：勾选Initialize this repository with a README
+  Git clone git@github.com:woniuzuioupao/newpro.git
+
+
+
