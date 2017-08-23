@@ -41,5 +41,9 @@ git config --global user.email “han.y@ziytek.com”
   创建远程库newpro：勾选Initialize this repository with a README
   Git clone git@github.com:woniuzuioupao/newpro.git
 
+15.删除本地仓库文件
+  rm test.txt
+  git commit
+
 
 
