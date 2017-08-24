@@ -46,4 +46,13 @@ git config --global user.email “han.y@ziytek.com”
   git commit
 
 
+16.删除本地工作区文件
+  rm test.txt
+
+17.删除本地暂存区文件
+  rm test.txt
+  git add test.txt
+
+
+
 
