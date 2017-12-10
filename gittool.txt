@@ -54,5 +54,27 @@ git config --global user.email “han.y@ziytek.com”
   git add test.txt
 
 
+18.其他
+(1)克隆远程仓库：git clone 仓库地址
+(2)从远程仓库拉取：git pull
+(3)推送到远程仓库：git push
+(4)查看当前分支日志：git log
+(5)查看当前分支简易日志：git log --oneline
+(6)创建分支：git branch 分支名
+(7)切换分支：git checkout 分支名
+(8)创建并且切换分支：git checkout -b 分支名
+(9)允许提交空：git commit --allow-empty -m '描述'
+(10)查看带分支的日志：git log --oneline --decorate
+(11)查看所有分支日志：git log --oneline --all
+(12)查看所有分支带分支信息的图形化信息：git log --oneline --all --decorate --graph
+(13)重命名命令：git config alias.logg 'log --oneline --all --decorate --graph'
+(14)
+(15)
+(16)
+(17)
+(18)
+(19)
+(20)
+
 
 
